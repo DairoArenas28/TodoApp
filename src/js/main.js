@@ -258,7 +258,6 @@ $(document).ready(function () {
 
         for (let i = 0; i < localStorage.length; i++) {
             let clave = localStorage.key(i);
-
             if (clave.startsWith("Task")) { // Filtra solo las claves que comienzan con "Task"
                 let indice = parseInt(clave.replace("Task", ""), 10);
                 arrayIndiceTask.push(indice); // Agrega el índice al array
